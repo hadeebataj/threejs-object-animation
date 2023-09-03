@@ -13,18 +13,21 @@
     />
   </head>
   <body>
-<script type="text/javascript">
-  (function(d, t) {
-      var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
-      v.onload = function() {
-        window.voiceflow.chat.load({
-          verify: { projectID: '64f481f36babf2000798bf57' },
-          url: 'https://general-runtime.voiceflow.com',
-          versionID: 'production'
-        });
-      }
-      v.src = "https://cdn.voiceflow.com/widget/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
-  })(document, 'script');
+<script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
+<script>
+  window.botpressWebChat.init({
+      "composerPlaceholder": "Chat with TravelWise advisor bot",
+      "botConversationDescription": "This chatbot was built surprisingly fast with Botpress",
+      "botId": "d1221ee2-bd20-43e7-8965-b74c5dff2928",
+      "hostUrl": "https://cdn.botpress.cloud/webchat/v1",
+      "messagingUrl": "https://messaging.botpress.cloud",
+      "clientId": "d1221ee2-bd20-43e7-8965-b74c5dff2928",
+      "lazySocket": true,
+      "botName": "TravelWise Bot",
+      "avatarUrl": "https://drive.google.com/file/d/1czXevfa56ySj4GBJAkYH7bE0V94Sl3o7/view?usp=drive_link",
+      "stylesheet": "https://webchat-styler-css.botpress.app/prod/b04e8794-4081-418a-a8c4-723a71d8d0f4/v45289/style.css",
+      "frontendVersion": "v1"
+  });
 </script>
     <div id="root"></div>
 
