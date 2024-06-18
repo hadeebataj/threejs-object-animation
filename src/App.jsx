@@ -14,6 +14,16 @@ function App() {
 Welcome to PetMates, where we care for your furry friends! As part of our commitment to providing excellent customer support, we have compiled answers to the most common queries we receive via email. If you can't find the information you need here, don't hesitate to contact us at customersupport@petmates.com.
 </p>
         
+
+
+
+
+
+
+
+
+
+
 <h3>1. Order Status:</h3>
 <p>
 • Q: "Where is my order?"
